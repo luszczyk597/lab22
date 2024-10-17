@@ -7,15 +7,15 @@ public class Login {
 
     static public void login() {
         Scanner myObj = new Scanner(System.in);
-        System.out.println("Podaj username: ");
+        System.out.println("Type username: ");
         String userName = myObj.nextLine();
-        System.out.println("Podaj password: ");
-        String password = myObj.nextLine();
+        System.out.println("Type password: ");
+        String Password = myObj.nextLine();
 
-        if(userName == username && password == password) {
-            System.out.println("Zalogowano");
+        if(userName == username && Password == password) {
+            System.out.println("Logged");
         }else{
-            System.out.println("Błędne");
+            System.out.println("False email or username");
         }
 
 
